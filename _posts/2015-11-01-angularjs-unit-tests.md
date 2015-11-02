@@ -12,7 +12,7 @@ published: true
 
 {% include JB/setup %}
 
-Angularjs autometed test - Part 1 (TEST):
+Angularjs autometed test - Part 1 (TEST ):
 - Introduction: application more complex at client side requires units test
 - Comparation with sport
 - Show graph of cost
