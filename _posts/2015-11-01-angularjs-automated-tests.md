@@ -27,7 +27,7 @@ Karma runs on nodeJS, below there is a summury schema about how Karma works, for
 
 ![]({{site.baseurl}}/_posts/images/karma-how-works.jpg?raw=true)
 
-Karma test runner generates a web server that executes source code against test code for each of the browsers connected to it. Karma support allow to run unit test written in different frameworks, the one I am using is Jasmine. The results for each test against each browser are examined and displayed via the command line to the developer such that they can see which browsers and tests passed or failed. All the information as the kind of unit tests, the browser/browsers used to run the tests etc are defined during the installation of Karma inside the local project.
+Karma test runner generates a web server that executes source code against test code for each of the browsers connected to it. Karma support allow to run unit test written in different frameworks, the one I am using is [Jasmine](http://jasmine.github.io/2.0/introduction.html). The results for each test against each browser are examined and displayed via the command line to the developer such that they can see which browsers and tests passed or failed. All the information as the kind of unit tests, the browser/browsers used to run the tests etc are defined during the installation of Karma inside the local project.
 
 
 
