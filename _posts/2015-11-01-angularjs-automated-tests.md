@@ -12,6 +12,7 @@ published: true
 
 
 
+
 {% include JB/setup %}
 
 Several scientific studies demonstrated that automated tests allow to reduce a lot the costs to develop and maintain an application as well as they allow to improve the quality of the software.
@@ -22,7 +23,7 @@ If we have a web application with a complexity at the client side it easy to und
 
 One of the most common tools which allows to build automated unit test in JavaScript is [Karma](http://karma-runner.github.io/0.13/index.html). Although Karma has been created by the AngularJS team, it is a test runner which can be used to test any JavaScript application. Offcourse it is too much easier to use Karma for JavaScript applications written using AngularJS since AngularJS has been designed keeping in mind the possibility to make the client side testable as the server side.
 
-Karma runs on nodeJS, below there is a summury schema about how Karma works, for more details plese on che karma web site page here.
+Karma runs on nodeJS, below there is a summury schema about how Karma works, for more details plese check the karma web site on this [section](http://karma-runner.github.io/0.13/intro/how-it-works.html).e.
 
 
 Conclusion
