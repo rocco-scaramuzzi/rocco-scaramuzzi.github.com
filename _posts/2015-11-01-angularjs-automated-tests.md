@@ -25,7 +25,7 @@ One of the most common tools which allows to build automated unit test in JavaSc
 
 Karma runs on nodeJS, below there is a summury schema about how Karma works, for more details plese check the karma web site on this [section](http://karma-runner.github.io/0.13/intro/how-it-works.html).
 
-![]({{site.baseurl}}/https://github.com/rocco-scaramuzzi/rocco-scaramuzzi.github.com/blob/master/_posts/images/karma-how-works.jpg?raw=true)
+![]({{site.baseurl}}/_posts/images/karma-how-works.jpg?raw=true)
 
 
 
