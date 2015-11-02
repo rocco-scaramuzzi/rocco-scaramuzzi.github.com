@@ -31,13 +31,13 @@ Karma test runner generates a web server that executes source code against test 
 
 In order to install karma you do need to have NodeJS installed on your machine. Once you got NodeJS, run locally to your project folder the following commands:
 
- (
-  # Install Karma:
+ 
+> # Install Karma:
   $ npm install karma --save-dev
   
   # Install plugins that your project needs:
   $ npm install karma-jasmine karma-chrome-launcher --save-dev
-  )
+  
   
  sdsd
 
