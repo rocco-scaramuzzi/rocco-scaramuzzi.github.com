@@ -31,24 +31,19 @@ Karma test runner generates a web server that executes source code against test 
 
 In order to install karma you do need to have NodeJS installed on your machine. Once you got NodeJS, run locally to your project folder the following commands:
  
-''' ruby
-# Install Karma:
+### Install Karma:
 $ npm install karma --save-dev
   
-# Install plugins that your project needs:
+### Install plugins that your project needs:
 $ npm install karma-jasmine karma-chrome-launcher --save-dev
 
-# Install karma command line globaly
+### Install karma command line globaly
 $ npm install -g karma-cli
-'''   
-Those commands will install karma, karma-jasmine and karma-chrome-launcher packages into node_modules in your project directory and also save these as devDependencies in package.json, so that any other developer working on the project will only have to do npm install in order to get all these dependencies installed. The last command allow to install karma globally so that we can run it from anywhere.
+ 
+Those commands will install _karma_, _karma-jasmine_ and _karma-chrome-launcher_ packages into node_modules in your project directory and also save these as devDependencies in package.json, so that any other developer working on the project will only have to do npm install in order to get all these dependencies installed. The last command allow to install karma globally so that we can run it from anywhere.
 
+Configuring Karma consist in creating the default karma.conf.js file on the root of our project folder. For more details please have a look the ufficial [Karma configuration](http://karma-runner.github.io/0.12/intro/configuration.html) page. 
 
+In the next article I will show hoe easly we can write unit tests (using Jasmine) and use Karma to run them.
 
-
-Conclusion
-
-- Karma as unit tests
-- Karma schema
-- Karma installation
-- Conclusion: Unit test allow us to write better test
+Bye!!!
