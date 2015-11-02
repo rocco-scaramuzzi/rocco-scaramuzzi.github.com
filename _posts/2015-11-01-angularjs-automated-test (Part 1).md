@@ -1,12 +1,10 @@
 ---
 layout: post
-category: lessons
-tagline: Supporting tagline
+category: client side
 tags: 
-  - intro
-  - beginner
-  - jekyll
-  - tutorial
+  - angularjs
+  - unit test
+  - karma
 published: true
 ---
 
