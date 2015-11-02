@@ -30,16 +30,18 @@ Karma runs on NodeJS, below there is a summury schema about how Karma works, for
 Karma test runner generates a web server that executes source code against test code for each of the browsers connected to it. Karma support allow to run unit test written in different frameworks, the one I am using is [Jasmine](http://jasmine.github.io/2.0/introduction.html). The results for each test against each browser are examined and displayed via the command line to the developer such that they can see which browsers and tests passed or failed. All the information as the kind of unit tests, the browser/browsers used to run the tests etc are defined during the installation of Karma inside the local project.
 
 In order to install karma you do need to have NodeJS installed on your machine. Once you got NodeJS, run locally to your project folder the following commands:
-
  
-> # Install Karma:
-  $ npm install karma --save-dev
+''' ruby
+# Install Karma:
+$ npm install karma --save-dev
   
-  # Install plugins that your project needs:
-  $ npm install karma-jasmine karma-chrome-launcher --save-dev
-  
-  
- sdsd
+# Install plugins that your project needs:
+$ npm install karma-jasmine karma-chrome-launcher --save-dev
+
+# Install karma command line globaly
+$ npm install -g karma-cli
+'''   
+Those commands will install karma, karma-jasmine and karma-chrome-launcher packages into node_modules in your project directory and also save these as devDependencies in package.json, so that any other developer working on the project will only have to do npm install in order to get all these dependencies installed. The last command allow to install karma globally so that we can run it from anywhere.
 
 
 
