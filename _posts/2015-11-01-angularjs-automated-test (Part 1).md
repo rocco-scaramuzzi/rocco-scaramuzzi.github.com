@@ -23,7 +23,7 @@ One of the most common tools which allows to build automated unit test in JavaSc
 
 Karma runs on NodeJS, below there is a summury schema about how Karma works, for more details plese check the karma web site on this [section](http://karma-runner.github.io/0.13/intro/how-it-works.html).
 
-![]({{site.baseurl}}/_posts/images/karma-how-works.jpg?raw=true)
+![How it works]({{site.baseurl}}/https://raw.githubusercontent.com/rocco-scaramuzzi/rocco-scaramuzzi.github.com/master/_posts/images/karma-how-works.jpg)
 
 Karma test runner generates a web server that executes source code against test code for each of the browsers connected to it. Karma support allow to run unit test written in different frameworks, the one I am using is [Jasmine](http://jasmine.github.io/2.0/introduction.html). The results for each test against each browser are examined and displayed via the command line to the developer such that they can see which browsers and tests passed or failed. All the information as the kind of unit tests, the browser/browsers used to run the tests etc are defined during the installation of Karma inside the local project.
 
