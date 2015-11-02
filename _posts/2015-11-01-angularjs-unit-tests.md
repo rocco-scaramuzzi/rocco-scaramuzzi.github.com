@@ -7,7 +7,7 @@ tags:
   - beginner
   - jekyll
   - tutorial
-published: false
+published: true
 ---
 
 {% include JB/setup %}
