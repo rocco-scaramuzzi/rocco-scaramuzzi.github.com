@@ -42,6 +42,6 @@ Those commands will install _karma_, _karma-jasmine_ and _karma-chrome-launcher_
 
 Configuring Karma consist in creating the default karma.conf.js file on the root of our project folder. For more details please have a look the ufficial [Karma configuration](http://karma-runner.github.io/0.12/intro/configuration.html) page. 
 
-In the next article I will show hoe easly we can write unit tests (using Jasmine) and use Karma to run them.
+In the next article I will show how easily we can write unit tests (using Jasmine) and use Karma to run them.
 
 Bye!!!
